@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gf:LoginView 
+	xmlns:mx="http://www.adobe.com/2006/mxml" 
+	xmlns:gf="org.glieseframework.demo.views.*" 
+	width="520" height="600" xmlns:s="library://ns.adobe.com/flex/spark">
+	<mx:Button id="loginButton" label="login" x="81" y="65" />
+	<mx:Label x="10" y="12" text="Username:"/>
+	<mx:Label x="14" y="38" text="Password:"/>
+	<s:TextInput id="username" x="81" y="10" text="Player"/>
+	<s:TextInput id="password" x="81" y="35" displayAsPassword="true" text="password"/>
+</gf:LoginView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gf:GameView 
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:s="library://ns.adobe.com/flex/spark"
+	xmlns:gf="org.glieseframework.demo.views.*" 
+	xmlns:pbe="com.pblabs.rendering2D.ui.*"
+	width="520" height="600" >
+	<s:TextArea x="10" y="417" height="140" width="500"/>
+	<s:TextInput x="10" y="567" width="500"/>
+	<pbe:FlexSceneView id="sceneView" x="10" y="10" height="400" width="500" />
+</gf:GameView>
